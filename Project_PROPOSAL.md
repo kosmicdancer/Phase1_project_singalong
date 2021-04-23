@@ -41,4 +41,12 @@ Wednesday & Thursday
     [ ]complete MVP
 Friday
     [ ]CSS
-    [ ]
+    [ ]Adjust
+
+## objective
+    Functions needed
+    -fetch data from https://api.lyrics.ovh/v1/arrtist/song_title
+
+    -create song-artist suggestion
+
+    -display lyrics

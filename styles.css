@@ -2,8 +2,8 @@ html {
     height: 100%;
   }
   body {
-    background-color: rgb(219, 252, 198);
-    color: rgba(45, 48, 44, 0.749);
+    background-color: rgb(31, 26, 21);
+    color: white(255, 255, 255, 0.749);
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
