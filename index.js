@@ -96,9 +96,9 @@
 // Functions needed
 //     -fetch data from https://api.lyrics.ovh/v1/artist/
 
-const searchInput = 'https://api.lyrics.ovh/suggest/:term/?_limit=5&_page=1'
+const searchInput = 'https://api.lyrics.ovh/suggest/:term/?_limit=5'
 const apiUrl = 'https://api.lyrics.ovh'
-let data = []
+
 
 const getSuggest = () => {
     fetch (searchInput) 
