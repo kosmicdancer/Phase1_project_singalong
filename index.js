@@ -96,16 +96,17 @@
 // Functions needed
 //     -fetch data from https://api.lyrics.ovh/v1/artist/
 
-const searchInput = 'https://api.lyrics.ovh/suggest/:term/?_limit=5'
+
 const apiUrl = 'https://api.lyrics.ovh'
 
 
 const getSuggest = () => {
-    fetch (searchInput) 
-    return fetch
+    const searchInput = 'https://api.lyrics.ovh/suggest/:term/?_limit=5'
+    return fetch (searchInput) 
     .then(r => r.json())
-    .then(data => console.log(data))
+    
 }
+getSuggest().then(data => console.log(data));
 
 //     -create song-artist suggestion div
 //const createSuggestDiv = () => {
