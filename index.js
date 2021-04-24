@@ -112,10 +112,16 @@ getSuggest().then(data => console.log(data));
 const createSuggestDiv = (data) => {
     const div = document.createElement('div'),
         suggestUl = document.createElement('ul'),
-        artist_titleli = document.createElement('li');
+        artist_titleli = document.createElement('li'),
+        singleSuggestUl = document.createElement('ul'),
+        titleLi = document.createElement('li'),
+        artistLi = document.createElement('li');
         
     suggestUl.innerHTML = data.array
     artist_titleli.innerText = data.artist
+
+    div.appendChild(suggestUl)
+
 
     return div; 
 }
