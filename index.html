@@ -9,7 +9,7 @@
     <title>Lyrics of the Day</title>
 </head>
 <body>
-<header id='headeer' class='header'>
+<header id='header' class='header'>
     <h1 class='title'>Lyrics of the Day</h1>
     <div><p>Grab your lyrics and Sing along! Enter a song title or an artist name below.
         </p>
@@ -24,7 +24,11 @@
       placeholder="Type the song you want the lyrics"
       id="search-input"
     />
-    <ul class="results" id="results"></ul>
+  </div>
+  <div class='suggest-container' id='suggest-container'>
+    <ul id='suggest'>
+      <li>artist - title</li>
+    </ul>
   </div>
 
   <div class="lyrics" id="lyrics">

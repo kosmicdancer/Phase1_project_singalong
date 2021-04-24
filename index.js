@@ -109,10 +109,28 @@ const getSuggest = () => {
 getSuggest().then(data => console.log(data));
 
 //     -create song-artist suggestion div
-//const createSuggestDiv = () => {
+const createSuggestDiv = (data) => {
+    const div = document.createElement('div'),
+        suggestUl = document.createElement('ul'),
+        artist_titleli = document.createElement('li');
+        
+    suggestUl.innerHTML = data.array
+    artist_titleli.innerText = data.artist
+
+    return div; 
+}
+
 
     
-//}
 
+
+const testdata = {
+}
 
 //     -display lyrics
+const createLyricsDiv = () => {
+
+}
+
+
+
