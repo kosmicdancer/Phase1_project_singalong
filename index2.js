@@ -15,7 +15,7 @@ searchInput.on('input', function() {
 });
 
 function removeResults() {
-  $('.result').remove();
+  ('.result').remove();
 }
 
 function suggestions() {

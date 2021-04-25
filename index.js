@@ -32,11 +32,13 @@ const createSuggestDiv = (data) => {
 }
 
 //      -create search box (form)
-const searchForm = document.querySelector('#search-container')
+const searchForm = document.querySelector('#search-container'),
+        form = document.getElementById('form')
+    
 
-searchForm.addEventListener('submit', (evt) => {
+form.addEventListener('submit', (evt) => {
     evt.preventDefault();
-    const searchInput = evt.target.search.value;
+
 })
     
 
