@@ -2,10 +2,10 @@ html {
     height: 100%;
   }
   body {
-    background-color: rgb(31, 26, 21);
-    color: whitesmoke;
+    background-color: #e0ffbb;
+    color: rgb(73, 73, 73);
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     font-family: 'Open Sans', sans-serif;
     min-height: 100%;
     position: relative;
@@ -16,16 +16,25 @@ html {
   a:hover {
     color: #bf360c;
   }
-  .container {
+  .search-container {
+    background-color: whitesmoke;
+    border: none;
     max-width: 900px;
     margin: 0 auto;
+  }
+  .form {
+    background-color: white;
+    border: none;
+  }
+  .search {
+    background-color: white;
   }
   .title {
     text-align: center;
     margin-bottom: 30px;
-    font-family: 'Bungee Shade', cursive;
+    font-family:  modern;
     padding: 20px;
-    color: #FF5722;
+    color: #1b1311;
   }
   .title-name {
     margin-bottom: 10px;

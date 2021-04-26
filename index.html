@@ -5,38 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    
     <title>Lyrics of the Day</title>
 </head>
 <body>
 <header id='header' class='header'>
     <h1 class='title'>Lyrics of the Day</h1>
-    <p>Grab your lyrics and Get going!
-        </p>
+    <p>Grab your lyrics and Get going!</p>
 </header>
+
 <div class='search-container'>
   <form id='form'>
     <input
       type="text"
-      name="song"
-      class="search-song"
-      autofocus="autofocus"
       placeholder="Type the song or artist.."
-      id="search-input"
+      id="search"
     />
     <button>Search</button>
   </form>
-  </div>
-  <div class='suggest-container' id='suggest-container'>
-    <ul id='suggest'>
-      <li id='artist-title'>
-      </li>
-    </ul>
-  </div>
+</div>
 
-  <div class="lyrics" id="lyrics">
-    </div>
-    
+<div class='suggest-container' id='suggest'>
+</div>
+
+<div class="result" id="result">
+    <p>Lyrics will be displayed here..</p>
+</div>
+
+<script src='./index.js'></script>
 </body>
 </html>
 
