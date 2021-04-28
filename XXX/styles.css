@@ -32,9 +32,9 @@ html {
   .title {
     text-align: center;
     margin-bottom: 30px;
-    font-family:  modern;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    color: #1b1311;
+    color: #ffffff;
   }
   .title-name {
     margin-bottom: 10px;

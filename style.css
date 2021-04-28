@@ -25,7 +25,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: rgb(208, 5, 5);
+    color: rgb(17, 1, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ form button {
     background-color: #c1a2ff;
     border: 0;
     border-radius: 10px;
-    color: #fff;
+    color: white;
     padding: 4px 10px;
 }
 
